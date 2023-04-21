@@ -63,7 +63,7 @@ The final model, although much improved from the baseline, could also benefit fr
 
 ## For More Information
 
-See the full analysis in the [Jupyter Notebook](https://github.com/claragiurgiu/Immunization_Predictor/blob/main/Immunization_Predictor_Analysis.ipynb)
+See the full analysis in the [Jupyter Notebook](https://github.com/claragiurgiu/Immunization-Predictor/blob/main/Immunization_Predictor_Analysis.ipynb)
 
 ## Repository Structure
 
