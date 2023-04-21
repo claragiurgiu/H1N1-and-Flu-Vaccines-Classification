@@ -31,19 +31,11 @@ It had 14,653 nulls across different columns, and I used sklearn's SimpleImputer
 I chose *recall* as my primary evaluation metric for my models because this is a measure of how many cases we predict will not get the vaccine, and they truly don't get it. 
 With false negatives, we can't confidently determine what factors might lead groups not to get vaccinated and the goal is to direct our efforts to improve on those
 
-**Dummy Model**
-Accuracy Score: 0.780
-Recall Score: 0.00
+- The **Dummy Model** had an accuracy score of 0.78 and recall score of 0.0 The false negatives were expected since there was an vast class imbalance in the vaccination rates, with 0 or no vaccine being the most common. 
 
+- The **Decision Tree** had no tuning of hyperparamenters and achieved an accuracy score of 0.760 and recall score of 0.437.
 
-**Decision Tree**
-Accuracy Score: 0.760
-Recall Score: 0.437
-
-
-Random Forest
-Accuracy Score: 0.808
-Recall Score: 0.651
+- The final model was a **Random Forest** with the best parameters found though a grid search. The accuracy improved to 0.808 and recall to 0.651.
 
 ![img](Images/model_rec__line_comparison.png)
 ![img](Images/model_acc_rec_comparison.png)
