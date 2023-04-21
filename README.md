@@ -50,7 +50,7 @@ Recall Score: 0.651
 ![img](Images/Important_features.png)
 ## Conclusions
 
-Comparing the accuracy and recall scores from all three models, the third model had the highest accuracy of 80% with a recall score of 65%. I recommend that our company uses this model to market to healthcare providers and public health officials. Application of this model can help in predicting who will be at risk of not receiving immunizations.
+Comparing the accuracy and recall scores from all three models, the third model had the highest accuracy of 80% with a recall score of 65%. I recommend that health care providers and public health agencies use this model as its application can help in predicting who will be at risk of not receiving immunizations.
 
 Additionally it shows that some top determinants for that choice are recommendation from a physician to get the vaccine, general thoughts about the vaccine effectivenes and the risk of getting sick with the H1N1 flu. With that in mind, provider can identify the best way to improve on those areas and education their patients.  
 
